@@ -1,0 +1,5 @@
+CREATE TABLE temp_1 (
+docid VARCHAR(255),
+term VARCHAR(255),
+count int,
+PRIMARY KEY(docid, term));

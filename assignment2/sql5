@@ -1,0 +1,4 @@
+select count(*) from frequency
+where docid='925_txt_trade'
+and count = 1;
+

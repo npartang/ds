@@ -1,0 +1,5 @@
+select A.docid, sum(A.count*B.count) as score from temp_1 A, temp_1 B
+where A.term = B.term
+and A.docid = 'q'
+group by A.docid, B.docid
+order by score desc;
